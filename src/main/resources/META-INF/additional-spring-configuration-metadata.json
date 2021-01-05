@@ -1,0 +1,15 @@
+{
+  "properties": [
+    {
+      "name": "generator.random.min-age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.github.inchestnov.generatorstarter.AgePoolBean",
+      "description": "The lower bound to random age generated value."
+    },
+    {
+      "name": "generator.random.max-age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.github.inchestnov.generatorstarter.AgePoolBean",
+      "description": "The upper bound to random age generated value."
+    }
+  ] }
