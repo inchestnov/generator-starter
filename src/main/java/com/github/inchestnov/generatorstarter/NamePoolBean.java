@@ -7,12 +7,12 @@ import org.springframework.stereotype.Component;
 @Component
 public class NamePoolBean implements NamePool {
 
-    private com.github.inchestnov.generatorstarter.MaleNamePool maleNamePool;
-    private com.github.inchestnov.generatorstarter.FemaleNamePool femaleNamePool;
-    private com.github.inchestnov.generatorstarter.SurnamePool surnamePool;
+    private MaleNamePool maleNamePool;
+    private FemaleNamePool femaleNamePool;
+    private SurnamePool surnamePool;
 
     @Autowired
-    public NamePoolBean(com.github.inchestnov.generatorstarter.MaleNamePool maleNamePool, com.github.inchestnov.generatorstarter.FemaleNamePool femaleNamePool, com.github.inchestnov.generatorstarter.SurnamePool surnamePool) {
+    public NamePoolBean(MaleNamePool maleNamePool, FemaleNamePool femaleNamePool, SurnamePool surnamePool) {
         this.maleNamePool = maleNamePool;
         this.femaleNamePool = femaleNamePool;
         this.surnamePool = surnamePool;

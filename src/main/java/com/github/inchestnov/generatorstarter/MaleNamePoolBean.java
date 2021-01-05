@@ -5,7 +5,7 @@ import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Component;
 
 @Component
-public class MaleNamePoolBean extends AbstractStringPool implements com.github.inchestnov.generatorstarter.MaleNamePool {
+public class MaleNamePoolBean extends AbstractStringPool implements MaleNamePool {
 
     @Value("male-names.txt")
     private Resource resource;

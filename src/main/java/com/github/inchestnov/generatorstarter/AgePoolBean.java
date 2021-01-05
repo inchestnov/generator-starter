@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component
-public class AgePoolBean implements com.github.inchestnov.generatorstarter.AgePool {
+public class AgePoolBean implements AgePool {
 
     @Value("${generator.random.min-age}")
     private Integer minAge;
