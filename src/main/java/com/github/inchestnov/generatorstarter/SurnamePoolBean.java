@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class SurnamePoolBean extends AbstractStringPool implements SurnamePool {
 
-    @Value("surnames.txt")
+    @Value("classpath:surnames.txt")
     private Resource resource;
 
     @Override

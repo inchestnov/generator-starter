@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class CityPoolBean extends AbstractStringPool implements CityPool {
 
-    @Value("cities.txt")
+    @Value("classpath:cities.txt")
     private Resource resource;
 
     @Override

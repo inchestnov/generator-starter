@@ -41,4 +41,9 @@ public class GeneratorStarterConfiguration {
         return new AgePoolBean();
     }
 
+    @Bean
+    public SpringContext springContext() {
+        return new SpringContext();
+    }
+
 }
