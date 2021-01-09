@@ -7,10 +7,10 @@ import org.springframework.stereotype.Component;
 @Component
 public class AgePoolBean implements AgePool {
 
-    @Value("${generator.random.min-age}")
+    @Value("${generator.random.min-age:18}")
     private Integer minAge;
 
-    @Value("${generator.random.max-age}")
+    @Value("${generator.random.max-age:60}")
     private Integer maxAge;
 
     @Override
